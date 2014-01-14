@@ -1,0 +1,34 @@
+<html>
+
+<head>
+</head>
+<body>
+
+	<h1>Cachey.js</h1>
+	<div id="test"></div>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script type="text/javascript">
+
+	require.config({
+	    paths: {
+	        "moment": "//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.0/moment.min",
+	    }
+	});
+
+	require(['cachey'],function(cachey){
+
+		cachey.set('cachey_test',{'just_a_test':true},3);
+		
+		var fromCache = cachey.get('cachey_test');
+
+		var pre = document.createElement('pre');
+		var txt = document.createTextNode(JSON.stringify(fromCache,null,2));
+		pre.appendChild(txt);
+
+		document.getElementById('test').appendChild(pre);
+	});
+
+</script>
+</body>
+</html>
