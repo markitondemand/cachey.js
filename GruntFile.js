@@ -23,7 +23,10 @@ module.exports = function(grunt) {
       grunt.util.spawn(
       {
          cmd: 'docco',
-         args: ['cachey.js'],
+         args: [
+          'cachey.js',
+          '-o', '../cachey.js-pages'
+        ],
          opts: { }
       },
       function(error, result, code) {
