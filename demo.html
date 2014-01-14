@@ -16,9 +16,9 @@
 	    }
 	});
 
-	require(['cachey'],function(cachey){
+	require(['dist/cachey.min'],function(cachey){
 
-		cachey.set('cachey_test',{'just_a_test':true},3);
+		cachey.set('cachey_test',{'testing':true},3);
 		
 		var fromCache = cachey.get('cachey_test');
 
