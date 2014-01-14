@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     uglify: {
       options: {
-        banner: '/*! <%= pkg.name %> Copyright (c) <%= grunt.template.today("yyyy-mm-dd") %> Markit On Demand, Inc. Licensed under the Apache License 2.0. */\n'
+        banner: '/*! <%= pkg.name %>, version <%= pkg.version %> Copyright (c) <%= grunt.template.today("yyyy-mm-dd") %> Markit On Demand, Inc. Licensed under the Apache License 2.0. */\n'
       },
       build: {
         src: 'cachey.js',
