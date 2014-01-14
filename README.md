@@ -2,7 +2,7 @@
 
 A [localStorage](http://diveintohtml5.info/storage.html) helper with cache expiration built-in. 
 
-Browse to [markitondemand.github.io/cachey.js](http://markitondemand.github.io/cachey.js) for the docs.
+Browse to [markitondemand.github.io/cachey.js/cachey.html](http://markitondemand.github.io/cachey.js/cachey.html) for the docs. There's a demo available at [markitondemand.github.io/cachey.js/demo.html](http://markitondemand.github.io/cachey.js/demo.html)
 
 ## Contributing
 
