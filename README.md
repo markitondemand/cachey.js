@@ -1,6 +1,6 @@
 # cachey.js
 
-A [localStorage](http://diveintohtml5.info/storage.html) helper with cache expiration built-in. 
+A [localStorage](http://diveintohtml5.info/storage.html) helper with cache expiration built-in. [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/markitondemand/cachey.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 Browse to [markitondemand.github.io/cachey.js/cachey.html](http://markitondemand.github.io/cachey.js/cachey.html) for the docs. There's a demo available at [markitondemand.github.io/cachey.js/demo.html](http://markitondemand.github.io/cachey.js/demo.html)
 
