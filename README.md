@@ -1,6 +1,6 @@
 # cachey.js
 
-A [localStorage](http://diveintohtml5.info/storage.html) helper with cache expiration built-in. [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/markitondemand/cachey.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+A [localStorage](http://diveintohtml5.info/storage.html) helper with cache expiration built-in. 
 
 Browse to [markitondemand.github.io/cachey.js/cachey.html](http://markitondemand.github.io/cachey.js/cachey.html) for the docs. There's a demo available at [markitondemand.github.io/cachey.js/demo.html](http://markitondemand.github.io/cachey.js/demo.html)
 
@@ -17,3 +17,5 @@ _The `docco` task puts the docs in a directory on the same level as the repo whe
 ## Copyright and License
 
 Copyright &copy; 2014 Markit On Demand, Inc. Cachey.js is licensed under the Apache License 2.0.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/markitondemand/cachey.js/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
