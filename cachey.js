@@ -51,6 +51,7 @@ define(['moment'], function(moment){
                 return d.data;
             } else {
             	//The data has expired from the cache.
+                delete localStorage[key];
                 console.warn('Cachey data (for '+key+') has expired.', d);
                 return false; 
             }
