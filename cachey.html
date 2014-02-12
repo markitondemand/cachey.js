@@ -203,7 +203,8 @@ The first and only argument is <code>key</code>, the storage key (<code>string</
 
             </div>
             
-            <div class="content"><div class='highlight'><pre>                console.warn(<span class="hljs-string">'Cachey data (for '</span>+key+<span class="hljs-string">') has expired.'</span>, d);
+            <div class="content"><div class='highlight'><pre>                <span class="hljs-keyword">delete</span> localStorage[key];
+                console.warn(<span class="hljs-string">'Cachey data (for '</span>+key+<span class="hljs-string">') has expired.'</span>, d);
                 <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>; 
             }
         },</pre></div></div>
